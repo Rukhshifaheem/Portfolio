@@ -1,0 +1,287 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;  
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  
+}
+
+#header {
+  background-color: #160154;
+  opacity: 0.7;
+}
+
+#header a {
+  transition: transform 0.4s ease;
+}
+
+#header a:hover {
+  transform: scale(1.1);
+  color: #FF00FF;
+}
+
+#text {
+  width: 25vw;
+  height: 40vh;
+  top: 30vh;
+  left: 14%;
+  position: absolute;
+}
+
+#text button {
+  transition: transform 0.4s ease;
+}
+
+#text button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px) {
+  #text {
+    display: none;
+  }
+  #header {
+    background-color:#03129f;
+    
+    position: static;
+  }
+  #img1 {
+    display: none;
+  }
+  #footer p {
+    text-align: center;
+  }
+  #about p {
+    text-align: center;
+    font-size: 0.9rem;
+  } 
+  #about li {
+    font-size: 0.8rem;
+  } 
+}
+
+#port {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+#Greetings {
+  color: #FF00FF;
+  font-size: 1rem;
+}
+
+#name {
+  color: #FF00FF;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+#hireMe {
+  background-color: #ca02ca;
+}
+
+#about {
+  width: 100%;
+  height: auto;
+  background-color: rgba(36,40,101,255);
+}
+
+#about h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+.email {
+  padding-left: 2rem;
+}
+
+#img2 a {
+  text-decoration: none;
+  color: rgb(169, 168, 168);
+}
+
+#resume {
+  width: 100%;
+  height: auto;
+  background-color: rgba(35,72,153,255);
+}
+
+#resume h1, h2, h3 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+#resume p {
+  color: rgb(212, 208, 208);
+}
+
+.experiences {
+  background-color: #4c7ecb;
+  border: 2px solid black;
+  margin: 1rem;
+}
+
+#Services {
+  width: 100%;
+  height: auto;
+  background-color: rgba(36,40,101,255);
+}
+
+#Services h1, h4 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+.services {
+  background-color: rgba(35,72,153,255);
+  border: 2px solid black;
+  margin: 2rem;
+}
+
+.para {
+  color: rgb(190, 189, 189);
+}
+
+#cv a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#cv button {
+  background-color: #ca02ca;
+  transition: transform 0.4s ease;
+}
+
+#cv button:hover {
+  transform: scale(1.1);
+}
+
+#skills {
+  width: 100%;
+  height: auto;
+  background-color: rgba(35,72,153,255);
+  padding-bottom: 30px;
+}
+
+#skills h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+#Projects {
+  width: 100%;
+  height: auto;
+  background-color: rgba(36,40,101,255);
+}
+
+#Projects h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.img-fluid {
+  opacity: 1; /* Initial opacity */
+  transition: opacity 0.3s; /* Smooth transition */
+}
+
+.image-container .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s; /* Smooth transition */
+  pointer-events: none; /* Ensure the overlay text does not block mouse events */
+}
+
+.image-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.image-container a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.image-container:hover .img-fluid {
+  opacity: 0.2; /* Increase opacity on hover */
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Show text on hover */
+  pointer-events: auto; /* Allow clicking on the text */
+}
+#blog {
+  width: 100%;
+  height: auto;
+  background-color: rgba(35,72,153,255);
+}
+
+#blog h1, h5 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+.med {
+  position: relative;
+  overflow: hidden;
+      
+}
+
+#blog img {
+  transition: transform 0.4s ease;
+}
+
+#blog img:hover {
+  transform: scale(1.1);
+}
+
+.date {
+  padding-top: 10px;
+  color: orange;
+}
+
+#hire-me {
+  width: 100%;
+  height: auto;
+  background-color: rgba(36,40,101,255);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#contact {
+  width: 100%;
+  height: auto;
+  background-color: rgba(35,72,153,255);
+}
+
+.contact2 button {
+  background-color: #4c7ecb;
+  transition: transform 0.4s ease;
+}
+
+.contact2 button:hover {
+  transform: scale(1.1);
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(36,40,101,255);
+}
+
+
